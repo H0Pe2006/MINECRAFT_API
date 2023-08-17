@@ -1,10 +1,10 @@
-@import url('https://db.onlinewebfonts.com/c/cd3c54717103876e08487540a13d8143?family=ITC+Bauhaus+Heavy');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "ITC Bauhaus Heavy";
+    font-family: 'VT323', monospace;
 }
 
 :root{
@@ -27,7 +27,10 @@ body{
     align-items: center;
     min-height: 50vh;
     background-color: var(--bg-color);
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/749eb013-c5c0-44cb-b88f-b075f21ef727/d4hqn0x-a3cbe0fd-03f3-45ab-a4c4-27f8c20f90fe.png/v1/fill/w_1024,h_712,q_80,strp/end_credits_background_by_lazulichaos_d4hqn0x-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzEyIiwicGF0aCI6IlwvZlwvNzQ5ZWIwMTMtYzVjMC00NGNiLWI4OGYtYjA3NWYyMWVmNzI3XC9kNGhxbjB4LWEzY2JlMGZkLTAzZjMtNDVhYi1hNGM0LTI3ZjhjMjBmOTBmZS5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.LdIo5wlX9yW8FQtgeP_nFlBw4NUVTzMh--h-SI0eB9E");
+    background-size: 100%;
 }
+
 
 .container{
     flex-grow: 3;
