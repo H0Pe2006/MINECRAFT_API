@@ -1,22 +1,11 @@
-function limparForm(endereco) {
-    document.getElementById('endereco').value = '';
-    document.getElementById('bairro').value = '';
-    document.getElementById('cidade').value = '';
-    document.getElementById('estado').value = '';
-    document.getElementById('ddd').value = '';
-    document.getElementById('ibge').value = '';
-    document.getElementById('siafi').value = '';
+function limparForm(uuid) {
+    document.getElementById('uuid').value = '';
 }
 
 
-function preencherForm(endereco) {
-    document.getElementById('endereco').value = endereco.logradouro;
-    document.getElementById('bairro').value = endereco.bairro;
-    document.getElementById('cidade').value = endereco.localidade;
-    document.getElementById('estado').value = endereco.uf;
-    document.getElementById('ddd').value = endereco.ddd;
-    document.getElementById('ibge').value = endereco.ibge;
-    document.getElementById('siafi').value = endereco.siafi;
+function preencherForm(uuid) {
+    document.getElementById('uuid').value = data.logradouro;
+  
 }
 
 
@@ -47,7 +36,7 @@ async function pesquisarCep() {
             document.getElementById('endereco').value = 'CEP não encontrado!';
             
         } else {
-            preencherForm(endereco);
+            preencherForm(uuid);
         }
     } else {
         document.getElementById('endereco').value = 'CEP incorreto!';
