@@ -17,7 +17,7 @@ header{
 }
 
 header img{
-    width: 30rem;
+    width: 20rem;
 }
 
 body{
@@ -126,6 +126,7 @@ p{
 
 footer{
     color: var(--primary-color);
+    font-size: 16px;
 }
 
 #a{
@@ -136,5 +137,37 @@ footer{
 
 a{
     text-decoration: none;
-    color: white;
+    color: rgb(93, 184, 33);
+}
+
+#img1{
+    height: 270px;
+    width: 120px;
+}
+
+#img2{
+    height: 104;
+    width: 104px;
+}
+
+#img3{
+    height: 104;
+    width: 104px;
+}
+
+#imageSection p, #imageSection img, #imageSection button {
+    margin-bottom: 100px;
+}
+
+#imageSection {
+    display: none;
+}
+.imageSection-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.imageSection-item button {
+    margin-top: 10px;
 }

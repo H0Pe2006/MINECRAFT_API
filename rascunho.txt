@@ -1,1 +1,1 @@
-https://crafatar.com/ //link da API
+https://crafatar.com/ /*link da API*/
