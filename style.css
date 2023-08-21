@@ -13,7 +13,7 @@
 }
 
 header{
-    margin-top:2rem;
+    margin-top:160px;
 }
 
 header img{
@@ -70,7 +70,6 @@ body{
     left: 10px;
     font-size: 20px;
     color: var(--primary-color);
-    transition: .5s;
     cursor: text;
 }
 
@@ -84,22 +83,22 @@ p{
 .inputbox input{
     position: absolute;
     background-color: var(--primary-color);
-    width: 20%;
-    height: 3px;
+    width: 30%;
+    height: 30px;
     bottom: 0;
     box-shadow: none;
     border: none;
     outline: none;
     border-radius: 2px;
-    transition: .5s;
     font-size: 20px;
-    font-weight: bold;
+    font-weight:lighter;
     padding: 0 10px;
     color: rgb(0, 0, 0);
-
+    text-align: center;
+    
 }
 
-.inputbox input:focus,
+/* .inputbox input:focus,
 .inputbox input:valid{
     height: 100%;
 }
@@ -108,7 +107,7 @@ p{
 .inputbox input:valid + label{
     top: -40px;
     left: 0;
-}
+} */
 
 .container button{
     justify-self: center;
@@ -171,3 +170,13 @@ a{
 .imageSection-item button {
     margin-top: 10px;
 }
+
+#pu{
+    display: flex;
+    background: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    bottom: 30px;
+    position: relative;
+}
+
